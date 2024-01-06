@@ -105,23 +105,38 @@ body {
     }
 
 
+
 .product-grid{grid-template-columns: repeat(2, 1fr);}
 
 
+.nome-dispositivo-destaque{top: 197px;}
+
+
 .texto-menor-imagem-principal{
+    position: relative;
+    top: 230px;
     font-size: 21px;}
+
+
+
+.linha-nome-dispositivo{
+    top: 107px;
+}
+
 
 
 .img-beneficios{width: 400px;}
 
 
 
-.imagem-principal{width: 320px;}
+.imagem-principal{width: 450px;}
 
 
     
 .logo{width: 210px;
     padding: 5px;}
+
+
 
 
 .nome-dispositivo-grid{
