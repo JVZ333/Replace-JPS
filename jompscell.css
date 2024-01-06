@@ -17,7 +17,7 @@ body {
 
 
 .imagem-principal{
-    margin: 40px 30px 40px 30px;
+    margin: 40px 30px;
     width: 280px;
     float: left;
     }
@@ -97,6 +97,12 @@ body {
 
 
 
+
+
+
+
+
+
 @media screen and (max-width: 1100px) {
 
 
@@ -129,8 +135,9 @@ body {
 
 
 
-.imagem-principal{width: 450px;
-    margin: 40px 30px 40px 30px;}
+.imagem-principal{
+    width: 450px;
+}
 
     
 .logo{width: 210px;
