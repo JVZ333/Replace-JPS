@@ -90,23 +90,15 @@ body {
 
 
 .product img {
-    max-width: 150px;
-    height: auto;
-    margin-top: 15px;
+    max-width: 200px;
     }
 
-.product-grid{grid-template-columns: repeat(3, 1fr);}
 
+.product-grid{grid-template-columns: repeat(2, 1fr);}
 
 
 .texto-menor-imagem-principal{
-    font-size: 21px;
-    display: flex;
-    position: relative;
-    top: 120px;
-    right: 15px;
-    font-weight: 600;}
-
+    font-size: 21px;}
 
 
 .img-beneficios{width: 270px;}
@@ -120,10 +112,13 @@ body {
 .logo{width: 180px;}
 
 .nome-dispositivo-grid{
-    font-size: 22px;
-    font-weight: bold;
+    font-size: 25px;
 }
     
+
+.legenda-abaixo-nome-dispositivo{font-size: 17px;}
+
+
 
 }
 
