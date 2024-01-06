@@ -90,7 +90,7 @@ body {
 
     .product-grid{grid-template-columns: repeat(3, 1fr);}
 
-    p{font-size: 18px;}
+    .texto-menor-imagem-principal{font-size: 22px;}
 
     .img-beneficios{width: 270px;}
 
