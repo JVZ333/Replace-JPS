@@ -79,7 +79,15 @@ body {
     margin-top: 15px;
     }
 
-.img-beneficios{width: 300px;}
+.img-beneficios{width: 300px;
+    padding: 10px;}
+
+
+
+.legenda-abaixo-nome-dispositivo{
+    font-weight: 100;
+    font-size: 17px;
+    }
 
 
 
@@ -101,22 +109,23 @@ body {
     font-size: 21px;}
 
 
-.img-beneficios{width: 270px;}
+.img-beneficios{width: 400px;}
 
 
 
-.imagem-principal{width: 460px;}
+.imagem-principal{width: 490px;}
 
 
     
-.logo{width: 180px;}
+.logo{width: 210px;
+    padding: 5px;}
+
 
 .nome-dispositivo-grid{
     font-size: 25px;
 }
     
 
-.legenda-abaixo-nome-dispositivo{font-size: 17px;}
 
 
 
