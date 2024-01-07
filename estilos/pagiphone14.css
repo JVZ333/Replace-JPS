@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(167, 219, 223);
+}
+
+.topo{
+    background-color: rgb(198, 226, 228);
+    border: 1px solid #Daa520;
+    border-radius: 10px;
+    margin: 0px 20px 110px 20px;
+}
+
+.logo{
+    width: 120px;
+    margin: 5px 5px 5px 10px;
+}
+
+.cartao-venda{
+    background-color: white;
+    padding: 15px 30px 15px 15px;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.301);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "cartao-iphone detalhes-sobre-cell ficha-tecnica";
+    gap: 15px;
+}
+
+@media (max-width: 1165px) {
+    .cartao-venda{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "cartao-iphone detalhes-sobre-cell"
+        "ficha-tecnica .";
+    }
+    .ficha-tecnica{
+        display: grid;
+        grid-area: 2 / 1 / auto / span 3;
+        align-items: center;
+    }
+}
+
+@media (max-width: 833px){
+    .cartao-venda{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "cartao-iphone"
+        "detalhes-sobre-cell"
+        "ficha-tecnica";
+    }
+}
+
+
+.cartao-iphone{
+    grid-area: cartao-iphone;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 0 5px 0 0;
+    background-color: #ededed23;
+    text-align: center;
+    /*position: relative;*/
+}
+
+.detalhes-sobre-cell{
+    grid-area: detalhes-sobre-cell;
+    list-style-position: inside;
+}
+
+.detalhes-sobre-cell ul{
+    margin-top: 40px;
+}
+
+.detalhes-sobre-cell li{
+    padding-top: 10px;
+}
+
+/*#moving-image {
+    position: absolute;
+    top: 0;
+    transition: top 0.3s ease;  
+  }*/ 
+
+.img-iphone{
+    max-width: 390px;
+    text-align: center;
+}
+
+.nome-cell{
+    font-size: 3em;
+}
+
+.opcoes{
+    margin-top: 20px;
+}
+
+.valor{
+    font-size: 28px;
+}
+
+.beneficio{
+    font-size: 19px;
+    color: #00a650;
+    font-weight: normal;
+}
+
+.segundo-valor{
+    font-size: 19px;
+    display: flex;
+}
+
+/* Formulário */
+
+.form-1{
+    margin-top: 30px;
+    width: 130px;
+    font-size: 20px;
+    margin-left: 10px;
+    border-radius: 5px;}
+
+.form-2{
+    width: 75px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 5px;}
+
+.form-3{
+    width: 88px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 5px;}
+
+.formularios{
+    font-size: 20px;
+}
+
+.botao-comprar{
+    display: block;
+    margin-top: 30px;
+    background-color: #3483fa;
+    border-color: transparent;
+    color: #fff;
+    font-size: 16px;
+    align-items: center;
+    padding: 12px 20px 12px 20px;
+    border-radius: 10px;
+}
+
+.botao-comprar:hover{
+    background-color: #2968c8;
+}
+
+/* Ficha Técnica */
+caption{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.ficha-tecnica{
+    display: grid;
+    grid-area: ficha-tecnica;
+    align-content: start;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tabela-zebra td{
+    padding: 20px;
+    background-color: #eaeaea;
+    border-bottom: 1px solid #BBBFBF;
+    border-top: 1px solid #BBBFBF;
+}
+
+.ficha-tecnica td + td{
+    border-left: 1px solid #BBBFBF;
+    
+}
