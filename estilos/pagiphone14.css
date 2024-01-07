@@ -142,9 +142,11 @@ body{
     font-size: 20px;
 }
 
-#p-titulo{
+.p-titulo{
     margin-top: 15px;
 }
+
+/* Botões pra selecionar cor do Iphone */
 
 .cores{
     display: flex;
@@ -163,6 +165,27 @@ body{
 
 .cores button:hover{
     border: 1px solid #3483fa;
+}
+
+/* Botões Memória */
+
+.memorias{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4px;
+    background-color: white;
+    gap: 10px
+}
+
+.memorias button{
+    border: 1px solid #BBBFBF;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.memorias button:hover{
+     border: 1px solid #3483fa;
 }
 
 .botao-comprar{
