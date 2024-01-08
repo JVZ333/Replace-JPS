@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jomps Cell</title>
+    <link rel="stylesheet" href="../estilos/pagiphone14.css">
+    <link rel="shortcut icon" href="logo/jomps_cell_logo_2-removebg-preview"/>
+</head>
+<body>
+    <header class="topo">
+        <a href="/index.html"><img src="../logo/jomps_cell_logo_1-removebg-preview.png" class="logo"></a>
+    </header>
+    
+    
+        <main class="cartao-venda">
+            <div class="cartao-iphone">
+                <img id="iphone-mostrado" class="img-iphone" src="../iphones/iphone 14.png" alt="Iphone 14">
+            </div>
+            <section class="detalhes-sobre-cell">
+                <h1 class="nome-cell">
+                    Iphone 14
+                </h1>
+                <div class="opcoes">
+                    <h2 class="valor"><sup>R$</sup>4.481<sup>00</sup> <span class="beneficio">18% OFF no Pix</span></h2>
+                    <p class="segundo-valor">ou R$4.735 em  <span class="beneficio"> 10x de R$475.50 sem juros</span></p>
+                </div> 
+
+                <!--<form class="formularios">
+                    <label for="form-1">Modelo:</label>
+                    <select class="form-1" name="caixa1">
+                        <option value="opcao1">iPhone 14</option>
+                        <option value="opcao2">iPhone 14 Pro</option>
+                        <option value="opcao3">iPhone 14 Pro Max</option>
+                    </select><br>-->
+                
+                    <!--<label for="form-2">Cor:</label>
+                    <select class="form-2" name="caixa2">
+                        <option value="link1">Azul</option>
+                        <option value="link2">Roxo</option>
+                        <option value="link3">Dourado</option>
+                        <option value="link4">Preto</option>
+                        <option value="link5">Branco</option>
+                        <option value="link6">Vermelho</option>
+                    </select><br>
+                
+                    <label for="form-3">Memória:</label>
+                    <select class="form-3" name="caixa3">
+                        <option value="pagina1">128gb</option>
+                        <option value="pagina2">256gb</option>
+                        <option value="pagina3">512gb</option>
+                        <option value="pagina4">1TB</option>
+                    </select>
+                    <button type="button" class="botao-comprar">Comprar</button> 
+                </form>
+                -->
+
+                    <p class="p-titulo">Cor:</p>
+                    <div class="cores">
+                        <button onclick="cor_iphone()" class="botao-cor" data-cor="vermelho"><img src="../iphones/iphone14/min-Iphone14-Red.jpg" alt="iphone14-red"></button>
+                        <button onclick="cor_iphone()" class="botao-cor" data-cor="amarelo"><img src="../iphones/iphone14/min-Iphone14-amarelo.jpg" alt="iphone14-amarelo">
+                        </button>
+                        <button onclick="cor_iphone()" class="botao-cor" data-cor="azul"><img src="../iphones/iphone14/min-iphone14-azul.jpg" alt="iphone14-azul"></button>
+                        <button onclick="cor_iphone()" class="botao-cor" data-cor="branco"><img src="../iphones/iphone14/min-iphone14-branco.jpg" alt="iphone14-branco"></button>
+                        <button onclick="cor_iphone()" class="botao-cor" data-cor="preto"><img src="../iphones/iphone14/min-iphone14-preto.jpg" alt="iphone14-preto"></button>
+                        <button onclick="cor_iphone()" class="botao-cor" data-cor="roxo"><img src="../iphones/iphone14/min-iphone14-roxo.jpg" alt="iphone14-roxo"></button>
+                    </div>
+
+                    <p class="p-titulo">
+                        Memória:
+                    </p>
+                    <div class="memorias">
+                        <button>128 GB</button>
+                        <button>256 GB</button>
+                        <button>512 GB</button>
+                    </div>
+                
+                <ul>
+                    <p>O que você precisa saber sobre este produto:</p>
+                    <li>Tela Super Retina XDR de 6.1 polegadas.(1)</li>
+                    <li>Sistema avançado de câmeras para tirar melhores fotos em qualquer condição de iluminação.</li>
+                    <li>Modo Cinema agora em 4K Dolby Vision de até 30 qps.</li>
+                    <li>Modo ação para conseguir vídeos estáveis, mesmo com a câmera em mãos.</li>
+                    <li>Detecção de Acidentes(2), uma nova funcionalidade de segurança que pede ajuda quando você não pode.</li>
+                    <li>Bateria para todo o dia e até 26 horas de reprodução de video.(3)</li>
+                    <li>A15 Bionic, com GPU e 5 núcleos para um rendimento fora de serie. Rede 5G ultra-rápida.(4)</li>
+                    <li>Ceramic Shield e resistência à água, características de durabilidade líderes na indústria.(5)</li>
+                    <li>iOS 16 oferece ainda mais opções de personalização e mais formas de comunicar-se e compartilhar.(6)</li>
+
+                </ul>
+            </section>
+
+            <table class="ficha-tecnica">
+                <caption>Ficha técnica</caption>
+                <tr class="tabela-zebra">
+                    <td>Tela</td>
+                    <td>Tela Super Retina XDR de 6,1 polegadas</td>
+                </tr>
+                <tr>
+                    <td>Capacidade de memória</td>
+                    <td>64GB, 128GB, 256GB</td>
+                </tr>
+                <tr class="tabela-zebra">
+                    <td>Resistente a respingos, água e poeira</td>
+                    <td>Ceramic Shield frontal, vidro traseiro e design de alumínio, resistente à água e poeira (classificação IP68 - profundidade máxima de 6 metros até 30 minutos)</td>
+                </tr>
+                <tr>
+                    <td>Câmera & Video</td>
+                    <td>Sistema de câmera dupla: 12MP principal, 12MP ultrawide com modo retrato, controle de profundidade, iluminação de retrato, Smart HDR 4 e vídeo 4K Dolby Vision HDR até 60 fps</td>
+                </tr>
+                <tr class="tabela-zebra">
+                    <td>Câmera Frontal</td>
+                    <td>Câmera frontal TrueDepth de 12MP com modo Retrato, Controle de Profundidade, Iluminação Retrato e Smart HDR 4</td>
+                </tr>
+                <tr>
+                    <td>Energia e bateria</td>
+                    <td>Reprodução de vídeo: até 20 horas Reprodução de vídeo (streaming): até 16 horas Reprodução de áudio: até 80 horas Adaptador de 20 W ou superior (vendido separadamente) Capacidade de carregamento rápido: até 50% de carga em cerca de 30 minutos com adaptador de 20 W ou superior (disponível separadamente)</td>
+                </tr>
+                <tr class="tabela-zebra">
+                    <td>Conteúdo da caixa</td>
+                    <td>iPhone com iOS 16, cabo USB-C para Lightning, documentação</td>
+                </tr>
+                <tr>
+                    <td>Altura</td>
+                    <td>146,7 mm</td>
+                </tr>
+                <tr class="tabela-zebra">
+                    <td>Largura</td>
+                    <td>71,5 mm</td>
+                </tr>
+                <tr>
+                    <td>Profundidade</td>
+                    <td>7,8 mm</td>
+                </tr>
+                <tr class="tabela-zebra">
+                    <td>Peso</td>
+                    <td>172 gramas</td>
+                </tr>
+                <tr>
+                    <td>Anatel</td>
+                    <td>109862201993</td>
+                </tr>
+            </table>
+            
+        </main>
+    
+        <script src="Scripts/script-iphone14.js"></script>
+</body>
+</html>
