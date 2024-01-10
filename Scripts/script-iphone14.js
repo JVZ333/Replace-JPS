@@ -7,23 +7,22 @@ botoesCores.addEventListener('click', function mudarIphone(event) {
         const iphoneMostrado = document.querySelector('#iphone-mostrado');
         switch(idDoBotao) {
             case 'vermelho':
-                iphoneMostrado.src = '../iphones/15.png';
+                iphoneMostrado.src = '../iphones/iphone14/iphone14-vermelho.png';
                 break;
             case 'amarelo':
-                console.log('Botão 2 clicado');
-                iphoneMostrado.innerHTML = 'Botão 2 clicado';
+                iphoneMostrado.src = '../iphones/iphone14/iphone14-amarelo.png';
                 break;
             case 'azul':
-                console.log('Iphone azul');
+                iphoneMostrado.src = '../iphones/iphone14/iphone14-azul.png';
                 break;
             case 'branco':
-                console.log('Iphone branco');
+                iphoneMostrado.src = '../iphones/iphone14/iphone14-branco.png';
                 break;
             case 'preto':
-                console.log('Iphone preto');
+                iphoneMostrado.src = '../iphones/iphone14/iphone14-preto.png';
                 break;
             case 'roxo':
-                console.log('Iphone roxo');
+                iphoneMostrado.src = '../iphones/iphone14/iphone14-roxo.png';
                 break;
         }
     }

@@ -68,6 +68,10 @@ body{
     /*position: relative;*/
 }
 
+#iphone-mostrado{
+    max-width: 300px;
+}
+
 .detalhes-sobre-cell{
     grid-area: detalhes-sobre-cell;
     list-style-position: inside;
