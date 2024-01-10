@@ -79,7 +79,6 @@ body {
   
       /* Estilo para as imagens */
 .product img {
-    width: 140px;
     height: auto;
     margin-top: 15px;
     }
@@ -129,9 +128,21 @@ body {
 }        
 
 
+.iphonexrgrid{width: 140px;}
+
+.iphone11grid{width: 142px;}
 
 
+.iphone12grid{width: 151px;}
 
+
+.iphone13grid{width: 154px;}
+
+.iphone14grid{width: 165px; 
+    margin-left: -8px;}
+
+.iphone15grid{width: 166px;
+    margin-left: -10px;}
 
 
 
