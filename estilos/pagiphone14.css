@@ -97,7 +97,7 @@ body{
 }
 
 .nome-cell{
-    font-size: 3em;
+    font-size: 2.75em;
 }
 
 .opcoes{
@@ -173,6 +173,7 @@ body{
 
 .cores button:hover{
     border: 1px solid #3483fa;
+    cursor: pointer;
 }
 
 /* Botões Memória */
@@ -190,10 +191,15 @@ body{
     padding: 5px;
     border-radius: 4px;
     background-color: white;
+    cursor: pointer;
 }
 
 .memorias button:hover{
      border: 1px solid #3483fa;
+}
+
+.memorias button:active{
+    border: 1px solid #3483fa;
 }
 
 .botao-comprar{
