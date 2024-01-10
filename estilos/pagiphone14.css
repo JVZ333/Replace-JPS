@@ -206,6 +206,7 @@ body{
     align-items: center;
     padding: 12px 20px 12px 20px;
     border-radius: 10px;
+    width: 327px;
 }
 
 .botao-comprar:hover{
