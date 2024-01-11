@@ -260,6 +260,7 @@ caption{
 }
 
 .cartao-outros{
+    display: flex;
     background-color: #fff;
     padding: 10px;
     border-radius: 12px;
@@ -272,17 +273,16 @@ caption{
 
 .preco-outros{
     margin-top: 5px;
-    text-align: start;
     font-size: 1.50em;
+    margin-left: 20px;
 }
 
 .p{
     margin-top: 5px;
-    text-align: start;
+    margin-left: 20px;
 }
 
 .beneficio-outros{
-    text-align: start;
     font-size: 16px;
     color: #00a650;
     font-weight: normal;
