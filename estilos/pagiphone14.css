@@ -299,3 +299,15 @@ caption{
     color: #00a650;
     font-weight: normal;
 }
+
+footer{
+    background-color: rgb(81, 207, 216);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
