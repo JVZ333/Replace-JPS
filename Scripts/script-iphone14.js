@@ -4,7 +4,6 @@ botoesCores.addEventListener('click', function mudarIphone(event) { //Adicionand
     const botaoClicado = event.target.closest('button'); //Certificando que só vai aceitar os cliques nos botões.
     if (botaoClicado) { //Caso seja true(o clique no botão) ele prossegue.
         const idDoBotao = botaoClicado.id; //Pegando o ID do botão que foi clicado
-    const botaoClicado = event.target.closest('button');
         //const textoDoBotao = botaoClicado.textContent;
         const iphoneMostrado = document.querySelector('#iphone-mostrado'); // Pegando ID da imagem do Iphone pra ser possível alterar.
         switch(idDoBotao) {  // Pra cada ID uma imagem diferente, é tipo um If, else.
@@ -13,7 +12,6 @@ botoesCores.addEventListener('click', function mudarIphone(event) { //Adicionand
                 break;  //Para parar, caso contrário, ele continuaria executando os d+
             case 'amarelo':
                 iphoneMostrado.src = '../iphones/iphone14/iphone14-amarelo.png';
-                iphoneMostrado.src = '../iphones/iphone14/iphone14-amarelo-usa.jpg';
                 break;
             case 'azul':
                 iphoneMostrado.src = '../iphones/iphone14/iphone14-azul.png';

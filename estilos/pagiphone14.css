@@ -259,6 +259,18 @@ caption{
     gap: 15px;
 }
 
+@media (max-width: 1030px) {
+    .outros{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 620px){
+    .outros{
+        grid-template-columns: 1fr;
+    }
+}
+
 .cartao-outros{
     display: flex;
     background-color: #fff;
