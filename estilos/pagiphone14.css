@@ -65,7 +65,6 @@ body{
     margin: 0 5px 0 0;
     background-color: #ededed23;
     text-align: center;
-    /*position: relative;*/
 }
 
 #iphone-mostrado{
@@ -84,12 +83,6 @@ body{
 .detalhes-sobre-cell li{
     padding-top: 10px;
 }
-
-/*#moving-image {
-    position: absolute;
-    top: 0;
-    transition: top 0.3s ease;  
-  }*/ 
 
 .img-iphone{
     max-width: 390px;
@@ -170,6 +163,19 @@ body{
     background-color: white;
 }
 
+@media (max-width: 300px) {
+    .cores{
+        width: 260px;
+        gap: 3px;
+    }
+
+    .cores button{
+        border: 0;
+        outline: 1px solid #BBBFBF;
+        padding: 2px;
+    }
+}
+
 .cores button:hover{
     border: 1px solid #3483fa;
     cursor: pointer;
@@ -181,7 +187,6 @@ body{
     display: flex;
     flex-wrap: wrap;
     margin-top: 4px;
-    background-color: white;
     gap: 10px
 }
 
