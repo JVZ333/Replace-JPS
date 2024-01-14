@@ -138,11 +138,9 @@ body {
 
 .iphone13grid{width: 154px;}
 
-.iphone14grid{width: 165px; 
-    margin-left: -8px;}
+.iphone14grid{width: 165px;}
 
-.iphone15grid{width: 166px;
-    margin-left: -10px;}
+.iphone15grid{width: 166px;}
 
 
 
@@ -150,11 +148,6 @@ body {
 
 
 @media screen and (max-width: 1100px) {
-
-
-.product img {
-    width: 200px;
-    }
 
 
 
@@ -196,6 +189,24 @@ body {
     font-size: 50px;
 }
     
+
+.iphonexrgrid{width: 203px;}
+
+.iphone11grid{width: 210px;}
+
+.iphone12grid{width: 205px;}
+
+.iphone13grid{width: 210px;}
+
+.iphone14grid{width: 216px;}
+
+.iphone15grid{width: 224px;}
+
+
+
+
+
+
 
 
 
