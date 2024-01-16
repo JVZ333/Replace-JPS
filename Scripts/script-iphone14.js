@@ -2,7 +2,6 @@
 const botoesCores = document.querySelector('.cores'); //Selecionando o pai
 botoesCores.addEventListener('click', function mudarIphone(event) { //Adicionando um ouvinte que vai detectar os cliques dentro dessa "div"
     const botaoClicado = event.target.closest('button'); //Certificando que só vai aceitar os cliques nos botões.
-    let cor = '';
     if (botaoClicado) { //Caso seja true(o clique no botão) ele prossegue.
         const idDoBotao = botaoClicado.id; //Pegando o ID do botão que foi clicado
         //const textoDoBotao = botaoClicado.textContent;
