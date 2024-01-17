@@ -5,25 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jomps Cell</title>
     <link rel="stylesheet" href="../estilos/pagiphone14.css">
-    <link rel="shortcut icon" href="logo/jomps_cell_logo_2-removebg-preview"/>
 </head>
 <body>
     <header class="topo">
-        <a href="/index.html"><img src="../logo/jomps_cell_logo_1-removebg-preview.png" class="logo"></a>
+        <a href="../index.html"><img src="../logo/jomps_cell_logo_1-removebg-preview.png" class="logo"></a>
     </header>
     
     
         <main class="cartao-venda">
             <div class="cartao-iphone">
-                <img id="iphone-mostrado" class="img-iphone" src="../iphones/iphone 14.png" alt="Iphone 14">
+                <img id="iphone-mostrado" class="img-iphone" src="../iphones/iphone14/iphone14-roxo.png" alt="Iphone 14">
             </div>
             <section class="detalhes-sobre-cell">
                 <h1 class="nome-cell">
-                    Iphone 14
+                    Iphone 14 (128 GB)
                 </h1>
                 <div class="opcoes">
-                    <h2 class="valor"><sup>R$</sup>4.481<sup>00</sup> <span class="beneficio">18% OFF no Pix</span></h2>
-                    <p class="segundo-valor">ou R$4.735 em  <span class="beneficio"> 10x de R$475.50 sem juros</span></p>
+                    <h2 id="preco" class="valor"><sup>R$</sup>4.481<sup>00</sup> <span class="beneficio">18% OFF no Pix</span></h2>
+                    <p id="preco-parcelado" class="segundo-valor">ou R$4.735 em <span class="beneficio">10x de 473.50 sem juros</span></p>
                 </div> 
 
                 <!--<form class="formularios">
@@ -57,23 +56,24 @@
 
                     <p class="p-titulo">Cor:</p>
                     <div class="cores">
-                        <button onclick="cor_iphone()" class="botao-cor" data-cor="vermelho"><img src="../iphones/iphone14/min-Iphone14-Red.jpg" alt="iphone14-red"></button>
-                        <button onclick="cor_iphone()" class="botao-cor" data-cor="amarelo"><img src="../iphones/iphone14/min-Iphone14-amarelo.jpg" alt="iphone14-amarelo">
+                        <button id="vermelho" data-cor="vermelho"><img src="../iphones/iphone14/min-Iphone14-Red.jpg" alt="iphone14-red"></button>
+                        <button  id="amarelo" data-cor="amarelo"><img src="../iphones/iphone14/min-Iphone14-amarelo.jpg" alt="iphone14-amarelo">
                         </button>
-                        <button onclick="cor_iphone()" class="botao-cor" data-cor="azul"><img src="../iphones/iphone14/min-iphone14-azul.jpg" alt="iphone14-azul"></button>
-                        <button onclick="cor_iphone()" class="botao-cor" data-cor="branco"><img src="../iphones/iphone14/min-iphone14-branco.jpg" alt="iphone14-branco"></button>
-                        <button onclick="cor_iphone()" class="botao-cor" data-cor="preto"><img src="../iphones/iphone14/min-iphone14-preto.jpg" alt="iphone14-preto"></button>
-                        <button onclick="cor_iphone()" class="botao-cor" data-cor="roxo"><img src="../iphones/iphone14/min-iphone14-roxo.jpg" alt="iphone14-roxo"></button>
+                        <button id="azul" data-cor="azul"><img src="../iphones/iphone14/min-iphone14-azul.jpg" alt="iphone14-azul"></button>
+                        <button id="branco" data-cor="branco"><img src="../iphones/iphone14/min-iphone14-branco.jpg" alt="iphone14-branco"></button>
+                        <button id="preto" data-cor="preto"><img src="../iphones/iphone14/min-iphone14-preto.jpg" alt="iphone14-preto"></button>
+                        <button id="roxo" data-cor="roxo"><img src="../iphones/iphone14/min-iphone14-roxo.jpg" alt="iphone14-roxo"></button>
                     </div>
 
                     <p class="p-titulo">
                         Memória:
                     </p>
                     <div class="memorias">
-                        <button>128 GB</button>
-                        <button>256 GB</button>
-                        <button>512 GB</button>
+                        <button id="memoria-128" class="botoes-memoria">128 GB</button>
+                        <button id="memoria-256" class="botoes-memoria">256 GB</button>
+                        <button id="memoria-512" class="botoes-memoria">512 GB</button>
                     </div>
+                    <button class="botao-comprar">Comprar</button>
                 
                 <ul>
                     <p>O que você precisa saber sobre este produto:</p>
@@ -98,7 +98,7 @@
                 </tr>
                 <tr>
                     <td>Capacidade de memória</td>
-                    <td>64GB, 128GB, 256GB</td>
+                    <td>128GB, 256GB, 512GB</td>
                 </tr>
                 <tr class="tabela-zebra">
                     <td>Resistente a respingos, água e poeira</td>
@@ -141,9 +141,52 @@
                     <td>109862201993</td>
                 </tr>
             </table>
-            
         </main>
     
-        <script src="Scripts/script-iphone14.js"></script>
+        <h2 id="outros-titulo">Podem te interessar:</h2>
+
+        <section class="outros">
+            <div class="cartao-outros">
+                <img class="imagens-outros" src="../iphones/15.png">
+                <div class="column-2">
+                    <h3 class="nome-dispositivo">iPhone 15</h3>
+                    <h4 class="preco-outros">R$5.931 <sup>00</sup></h4>
+                    <p class="p"><span class="beneficio-outros"> até 10x sem juros</span></p>
+                </div>
+            </div>
+            <div class="cartao-outros">
+                <img class="imagens-outros" src="../iphones/15.png">
+                <div class="column-2">
+                    <h3 class="nome-dispositivo">iPhone 15</h3>
+                    <h4 class="preco-outros">R$5.931 <sup>00</sup></h4>
+                    <p class="p"><span class="beneficio-outros"> até 10x sem juros</span></p>
+                </div>
+            </div>
+            <div class="cartao-outros">
+                <img class="imagens-outros" src="../iphones/15.png">
+                <div class="column-2">
+                    <h3 class="nome-dispositivo">iPhone 15</h3>
+                    <h4 class="preco-outros">R$5.931 <sup>00</sup></h4>
+                    <p class="p"><span class="beneficio-outros"> até 10x sem juros</span></p>
+                </div>
+            </div>  
+            <div class="cartao-outros">
+                <img class="imagens-outros" src="../iphones/15.png">
+                <div class="column-2">
+                    <h3 class="nome-dispositivo">iPhone 15</h3>
+                    <h4 class="preco-outros">R$5.931 <sup>00</sup></h4>
+                    <p class="p"><span class="beneficio-outros"> até 10x sem juros</span></p>
+                </div>
+            </div>
+
+        </section>
+
+        <footer>
+            <p>Página desenvolvida por <a href="https://pedro-henrique771.github.io/projeto-cardapio/Paginas/contato.html">Pedro</a></p>
+        </footer>
+
+
+
+        <script src="../Scripts/script-iphone14.js"></script>
 </body>
 </html>
